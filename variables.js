@@ -48,3 +48,13 @@ e = e + 1 // Incrementing e
 console.log(e)
 f = f - 1 // Decrementing f
 console.log(f)
+
+// CONCATENATION OF STRINGS
+let firstWord = "Hello"
+let secondWord = "World"
+let sentence = firstWord + " " + secondWord
+console.log(sentence)
+
+console.log("The value of x is: " + x) // Concatenating a string with another variable
+console.log("The value of a is: " + a) // Concatenating a string with another variable
+console.log("The value of e + f is: " + (e + f)) // Concatenating a string with an expression
