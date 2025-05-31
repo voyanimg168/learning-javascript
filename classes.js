@@ -28,12 +28,3 @@ myFirstCat.meow(); // Fluffy says meow!
 mySecondCat.meow(); // Bella says meow!
 
 myFirstCat.scratch(4); // Fluffy scratches 3 times!
-//
-class Dog {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
-}   
-const myFirstDog = new Dog("Rex", 4);
-console.log(myFirstDog); // Dog { name: 'Rex', age: 4 }
