@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/voyanimg168/learning-javascript/issues"
   },
-  "homepage": "https://github.com/voyanimg168/learning-javascript#readme"
+  "homepage": "https://github.com/voyanimg168/learning-javascript#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }
