@@ -3,6 +3,17 @@ class Cat {
         this.name = name;
         this.age = age;
     }
+    meow() {
+        console.log(`${this.name} says meow!`);
+    }
+    scratch(numberOfTimes) {
+        for (let x = 1; x <= numberOfTimes; x++) {
+            console.log('Scratch');
+        }
+    }
+//    scratch(numberOfTimes) {
+//        console.log(`${this.name} scratches ${numberOfTimes} times!`);
+//    }
 }
 
 const myFirstCat = new Cat("Fluffy", 5);
@@ -13,6 +24,10 @@ const mySecondCat = new Cat("Bella", 3);
 console.log(mySecondCat); // Cat { name: 'Bella', age: 3 }
 console.log(mySecondCat.name); // Bella
 
+myFirstCat.meow(); // Fluffy says meow!
+mySecondCat.meow(); // Bella says meow!
+
+myFirstCat.scratch(4); // Fluffy scratches 3 times!
 //
 class Dog {
     constructor(name, age) {
